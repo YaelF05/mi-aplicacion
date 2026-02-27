@@ -1,0 +1,24 @@
+name: Prueba
+
+run-name: Probando
+
+on: 
+  push
+
+jobs:
+  Saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Primer paso
+        run: echo "Pongame 10 profe"
+      - name: Otro
+        run: echo "No se que poner"
+      - name: Otro 2
+        run: whoami
+      - name: fecha
+        run: date
+      - name: Obteniendo repo
+        uses: actions/checkout@4
+      - name: Items
+        run: ls -la
+  
