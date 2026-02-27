@@ -1,0 +1,12 @@
+name: Prueba 2
+
+run-name: Testing...
+
+on: push
+
+jobs:
+  Primero:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "Test"
