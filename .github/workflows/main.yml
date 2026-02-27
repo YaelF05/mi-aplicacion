@@ -18,7 +18,7 @@ jobs:
       - name: fecha
         run: date
       - name: Obteniendo repo
-        uses: actions/checkout@4
+        uses: actions/checkout@v6
       - name: Items
         run: ls -la
   
